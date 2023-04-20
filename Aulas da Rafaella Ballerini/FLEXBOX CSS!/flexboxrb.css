@@ -1,0 +1,80 @@
+@charset "UTF-G";
+
+/*flexbox ou caixa flexivel
+serve para você poder alinhar os elementos dentro de um conteiner ou caixa, de forma dinamica
+a caixa  é um elemento pai como div ou ul, qualquer tag fora dos elementos que a gente quer alinhar
+*/
+
+
+
+main {
+    background-color: #f9eac3;
+    width: 700px;
+    height: 350px;
+    padding: 16px;
+    border-radius: 10px;
+}
+
+
+div.bloco-1 {
+    order: 0;
+    /*flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: auto;*/
+    flex: 0 1 auto;
+    align-self: flex-start;
+
+    background-color: rgb(148, 234, 255);
+    width: 150px;
+    height: 150px;
+    padding: 3px;
+    margin: 2px;
+    border-radius: 5px;
+}
+
+div.bloco-2 {
+    order: 0;
+    /*flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: auto;*/
+    flex: 0 1 auto;
+    align-self: flex-end;
+
+    background-color: rgb(211, 164, 250);
+    width: 150px;
+    height: 150px;
+    padding: 3px;
+    margin: 2px;
+    border-radius: 5px;
+}
+
+div.bloco-3 {
+    order: 0;
+    /*flex-grow: 2;
+    flex-shrink: 1;
+    flex-basis: auto;*/
+    flex: 0 1 auto;
+    align-self: center;
+
+    background-color: rgb(255, 134, 134);
+    width: 150px;
+    height: 150px;
+    padding: 3px;
+    margin: 2px;
+    border-radius: 5px;
+} 
+
+
+
+.conteiner { 
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: nowrap;
+    align-content: center;
+    row-gap: 10px;
+    column-gap: 30px;
+}
+
+
