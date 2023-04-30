@@ -1,0 +1,49 @@
+<div class="container">
+    <div></div>
+    <div class="center"></div>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div class="center"></div>
+    <div></div>
+    <div></div>
+    <div></div>
+  </div>
+
+  <style>
+    html, body {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.container {
+  background: black;
+  width: 100vw;
+  height: 100vw; 
+  
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  
+  grid-gap: 5px;
+  
+  justify-itens: end;
+  align-itens: end;
+
+}
+
+.container > div {
+  background: #7159c1;
+  width: 50%;
+  height: 50%;
+  
+}
+
+.center {
+  justify-self: center;
+  align-self: center;
+}
+  </style>
