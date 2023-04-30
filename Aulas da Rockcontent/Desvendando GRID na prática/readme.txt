@@ -101,3 +101,6 @@ VALORES
 5. space-between
 6. space-around
 7. space-evenly 
+
+#SELF
+'justify-self' e 'align-self" para alinhar o item em si 

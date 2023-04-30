@@ -1,0 +1,25 @@
+@charset "UTF-8";
+
+#container {
+    background: #4f995c;
+    padding: 8px;
+    height: 500px;
+
+    display: flex;
+    /* flex-direction: column;
+    align-items: center;*/
+    justify-content: center;
+}
+
+.item {
+    padding: 20px;
+    background: rgb(4, 4, 44);
+    color: white;
+    border: 1px solid white;
+    /*flex: 0 1 auto;*/
+    flex-grow: 1;
+}
+
+.c3 {
+    flex: 2;
+}
