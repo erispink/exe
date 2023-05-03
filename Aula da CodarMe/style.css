@@ -9,17 +9,27 @@
     /* flex-direction: column;
     align-items: center;*/
     justify-content: center;
+    flex-wrap: wrap;
 }
-
+ 
 .item {
     padding: 20px;
     background: rgb(4, 4, 44);
     color: white;
     border: 1px solid white;
-    /*flex: 0 1 auto;*/
+    width: 500px;
+   
+    /*flex: 1;*/
+    
+    /*
     flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: 100px; não é comum alterar o shrink e o basis*/
+    
 }
 
 .c3 {
-    flex: 2;
+   /* flex: 2;*/
+   /*order: -1; elementos específicos
+    align-self: flex-start;*/
 }
