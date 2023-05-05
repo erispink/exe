@@ -14,18 +14,20 @@ body {
     font-size: 14px;
 }
 
+.box {
+    display: block;
+    margin: auto;
+    margin-top: 5px;
+    background-color: white;
+    width: 375px;
+    height: 585px;
+    border-radius: 10px;
+}
+
 .perfume {
     width: 375px;
     height: 260px;
-
-}
-
-.box {
-    display: block;
-    background-color: white;
-    width: 375px;
-    height: 625px;
-    border-radius: 10px;
+    border-radius: 10px 10px 0px 0px;
 }
 
 .box > h1 {
@@ -42,21 +44,26 @@ body {
 
 .money {
     color: hsl(158, 28%, 39%);
+    font-size: 30px;
+    font-weight: bold;
+    text-indent: 20px;
 }
 
 .button {
     width: 200px;
     height: 50px;
-    margin: 5px;
-    padding: 5px;
+    margin: 2px;
     background-color: hsl(158, 28%, 39%);
     color: white;
     font-family:'Montserrat', sans-serif;
     border-bottom: none;
     border-radius: 10px;
-;
 
 }
 
-.attribution { font-size: 11px; text-align: center; }
+.attribution { 
+    font-size: 11px; 
+    text-align: center; 
+    padding: 10px;
+}
 .attribution a { color: hsl(228, 45%, 44%); }
