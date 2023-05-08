@@ -24,13 +24,18 @@ body {
     border-radius: 10px;
 }
 
-.perfume1 {
+img {
+    display: block;
+    margin: auto;
+}
+
+img#mobile {
     width: 375px;
     height: 260px;
     border-radius: 10px 10px 0px 0px;
 }
 
-.perfume2 {
+img#bigscreens {
     display: none;
 }
 
@@ -43,12 +48,13 @@ body {
 .box > p {
     color:hsl(228, 12%, 48%);
     font-family: 'Montserrat', sans-serif;
-    margin: 12px;
+    margin: 12px 20px 12px 20px;
 }
 
 .valor {
     display: flex;
     flex-wrap: nowrap;
+    margin: 0px 0px 0px 10px;
 }
 
 .money {
@@ -56,7 +62,7 @@ body {
     font-family: 'Fraunces', serif;
     font-size: 30px;
     font-weight: bold;
-    text-indent: 20px;
+    text-indent: 12px;
     padding-bottom: 12px;
 }
 
