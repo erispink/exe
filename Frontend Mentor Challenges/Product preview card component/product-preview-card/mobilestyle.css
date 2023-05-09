@@ -77,7 +77,7 @@ img#bigscreens {
 
 
 .button {
-    display: block;
+    display: flex;
     width: 350px;
     height: 50px;
     margin: auto;
@@ -87,6 +87,9 @@ img#bigscreens {
     border-bottom: none;
     border-radius: 10px;
     text-align: center;
+
+    align-items: center;
+    justify-content: center;
 }
 
 .attribution { 
