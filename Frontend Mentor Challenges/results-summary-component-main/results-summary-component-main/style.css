@@ -1,0 +1,26 @@
+@charset "UTF-8";
+
+@media screen and (min-width:768px) {
+
+    .box {
+        display: block;
+        margin: auto;
+        width: 800px;
+        height: 350px;
+        margin-top: 15px;
+        text-align: center;
+        font-weight: 400;
+        background: hsl(0, 0%, 100%);
+        box-shadow:  150px 150px 180px #bdbdbd,
+        -100px -100px 100px #ffffff;
+    }
+
+    .blue {
+        border-radius: 20px;
+    }
+
+    .white {
+        border-radius: 20px;
+    }
+}
+

@@ -8,7 +8,6 @@
 }
 
 main {
-    background-color: hsl(0, 0%, 0%);
     font-family: 'Hanken Grotesk', sans-serif;
 }
 
@@ -17,13 +16,12 @@ main {
     margin: auto;
     background-color: hsl(0, 0%, 100%);
     width: 375px;
-    height: 550px;
+    height: 580px;
     margin-top: 15px;
     text-align: center;
     font-weight: 400;
     border-radius: 10px 10px 10px 10px;
-    box-shadow:  20px 20px 60px #bebebe,
-             -20px -20px 60px #ffffff;
+
 }
 
 .blue {
@@ -31,11 +29,23 @@ main {
     background-image: linear-gradient(to top, hsl(241, 81%, 54%),hsl(252, 100%, 67%));
     color: white;
     width: 375px;
-    height: 200px;
-    border-radius: 0px 0px 10px 10px;
+    height: 215px;
+    border-radius: 0px 0px 15px 15px;
     padding-top: 20px;
     padding-bottom: 40px;
     
+}
+
+.blue > p {
+    color: hsl(241, 100%, 89%);
+    font-size: 14px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+}
+
+.blue > h3 {
+    margin-top: 15px;
+    margin-bottom: 10px;
 }
 
 .circle {
@@ -46,31 +56,39 @@ main {
     height: 100px;
     border-radius: 50%;
 
-    flex-wrap: wrap;
+    justify-content: center;
+    flex-direction: column;
     align-items: center;
+}
+
+.circle > p {
+    font-size: 12px;
+    color: hsl(241, 45%, 79%);
 }
 
 .white {
     background-color: hsl(0, 0%, 100%);
-    color: hsl(224, 30%, 27%);
+    color: hsl(225, 30%, 23%);
     padding: 10px;
-    text-align: center;
-    font-weight: bold;
+    text-align: left;
+    text-indent: 15px;
+    font-size: 14px;
 }
 
-h3 {
-    padding: 10px;
-}
-
-.p {
-    color: hsl(224, 30%, 27%);
+.white > p {
+    color: hsl(241, 100%, 89%);
+    font-size: 14px;
     margin: 20px;
+}
+
+.white > i {
+    display: inline;
+    margin: 1px;
 }
 
 .box1 {
     display: flex;
-    background-color: hsla(0, 100%, 67%, 0.171);
-    color:hsl(0, 100%, 67%);
+    background-color: hsla(0, 97%, 72%, 0.116);
     height: 40px;
     width: 330px;
     border-radius: 10px;
@@ -79,12 +97,23 @@ h3 {
     flex-wrap: nowrap;
     justify-content: space-around;
     align-items: center;
+}
+
+.box1 > b {
+    color:hsl(0, 100%, 67%);
+} 
+
+.box1 > p {
+    color:hsl(241, 37%, 65%);
+}
+
+.box1 > p > b {
+    color: hsl(224, 30%, 27%);
 }
 
 .box2 {
     display: flex;
-    background-color: hsla(39, 100%, 56%, 0.178);
-    color: hsl(39, 100%, 56%);
+    background-color: hsla(39, 100%, 46%, 0.126);
     height: 40px;
     width: 330px;
     border-radius: 10px;
@@ -95,10 +124,21 @@ h3 {
     align-items: center;
 }
 
+.box2 > b {
+    color: hsl(39, 100%, 56%);
+}
+
+.box2 > p {
+    color: hsl(241, 37%, 65%);
+}
+
+.box2 > p > b {
+    color: hsl(224, 30%, 27%);
+}
+
 .box3 {
     display: flex;
-    background-color: hsla(166, 100%, 37%, 0.151);
-    color: hsl(166, 100%, 37%);
+    background-color: hsla(166, 61%, 42%, 0.075);
     height: 40px;
     width: 330px;
     border-radius: 10px;
@@ -109,10 +149,21 @@ h3 {
     align-items: center;    
 }
 
+.box3 > b {
+    color: hsl(166, 100%, 37%);
+}
+
+.box3 > p {
+    color: hsl(241, 37%, 65%);
+}
+
+.box3 > p > b {
+    color: hsl(224, 30%, 27%);
+}
+
 .box4 {
     display: flex;
-    background-color: hsla(234, 85%, 45%, 0.13);
-    color: hsl(234, 85%, 45%);   
+    background-color: hsla(234, 52%, 56%, 0.11);
     height: 40px;
     width: 330px;
     border-radius: 10px; 
@@ -121,6 +172,18 @@ h3 {
     flex-wrap: nowrap;
     justify-content: space-around;
     align-items: center;
+}
+
+.box4 > b {
+    color: hsl(234, 85%, 45%);  
+}
+
+.box4 > p {
+    color: hsl(241, 37%, 65%);
+}
+
+.box4 > p > b {
+    color: hsl(224, 30%, 27%);
 }
 
 .button {
