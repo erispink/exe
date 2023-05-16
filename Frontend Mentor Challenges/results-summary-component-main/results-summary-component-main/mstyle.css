@@ -9,6 +9,7 @@
 
 main {
     font-family: 'Hanken Grotesk', sans-serif;
+
 }
 
 .box {
@@ -21,6 +22,11 @@ main {
     text-align: center;
     font-weight: 400;
     border-radius: 10px 10px 10px 10px;
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%)
 
 }
 
@@ -39,8 +45,7 @@ main {
 .blue > p {
     color: hsl(241, 100%, 89%);
     font-size: 14px;
-    margin-top: 5px;
-    margin-bottom: 15px;
+    margin: 5px 60px 15px 60px;
 }
 
 .blue > h3 {
