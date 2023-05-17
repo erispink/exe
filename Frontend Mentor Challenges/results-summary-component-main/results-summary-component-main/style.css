@@ -10,8 +10,8 @@
     .box {
         display: flex;
         margin: auto;
-        width: 750px;
-        height: 480px;
+        width: 720px;
+        height: 450px;
         text-align: center;
         font-weight: 400;
         background: hsl(0, 0%, 100%);
@@ -26,11 +26,12 @@
     .blue {
         display: inline;
         width: 350px;
-        height: 420px;
+        height: 390px;
         border-radius: 20px;
     }
 
     .blue > h3 {
+        font-size: 20px;
         margin-top: 15px;
         margin-bottom: 15px;
     }
@@ -39,8 +40,7 @@
         font-size: 16px;
         margin: 5px 65px;
     }
-
-
+    
     .circle {
         display: flex;
         margin: auto;
@@ -48,21 +48,58 @@
         width: 155px;
         height: 155px;
         border-radius: 50%;
+        margin-top: 30px;
+        margin-bottom: 30px;
     
         justify-content: center;
         flex-direction: column;
         align-items: center;
+        
     }
 
+    .circle > h1 {
+        font-size: 45px;
+    }
+
+
     .white {
-        display: inline;
+        display: flex;
         border-radius: 20px;
+
+        flex-direction: column;
+        align-items: center;
     }
 
     .white > p {
         color: hsl(241, 100%, 89%);
         font-size: 15px;
         margin: 10px;
+    }
+
+    .box1 {
+        width: 300px;
+        margin: 10px 20px;
+    }
+
+    .box2 {
+        width: 300px;
+        margin: 10px 20px;
+    }
+
+    .box3 {
+        width: 300px;
+        margin: 10px 20px;
+    }
+
+    .box4 {
+        width: 300px;
+        margin: 10px 20px;
+    }
+
+
+    .button {
+        background-image: linear-gradient(to top, hsl(241, 81%, 54%),hsl(252, 100%, 67%));
+        width: 300px;
     }
 }
 

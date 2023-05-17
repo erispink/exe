@@ -42,15 +42,15 @@ main {
     
 }
 
-.blue > p {
-    color: hsl(241, 100%, 89%);
-    font-size: 14px;
-    margin: 5px 60px 15px 60px;
-}
-
 .blue > h3 {
     margin-top: 15px;
     margin-bottom: 10px;
+}
+
+.blue > p {
+    color: hsl(241, 100%, 89%);
+    font-size: 15px;
+    margin: 5px 60px 15px 60px;
 }
 
 .circle {
