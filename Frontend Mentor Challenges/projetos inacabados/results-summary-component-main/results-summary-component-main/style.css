@@ -12,7 +12,6 @@
         margin: auto;
         width: 720px;
         height: 450px;
-        text-align: center;
         font-weight: 400;
         background: hsl(0, 0%, 100%);
         border-radius: 20px;
@@ -54,13 +53,11 @@
         justify-content: center;
         flex-direction: column;
         align-items: center;
-        
     }
 
     .circle > h1 {
         font-size: 45px;
     }
-
 
     .white {
         display: flex;
@@ -70,9 +67,17 @@
         align-items: center;
     }
 
+    .white > b {
+        display: flex;
+        font-weight: bold;
+        font-size: 18px;
+        margin: 15px 0px 10px 5px;
+
+        align-self: flex-start;
+    }
+
     .white > p {
         color: hsl(241, 100%, 89%);
-        font-size: 15px;
         margin: 10px;
     }
 
@@ -96,10 +101,14 @@
         margin: 10px 20px;
     }
 
-
     .button {
-        background-image: linear-gradient(to top, hsl(241, 81%, 54%),hsl(252, 100%, 67%));
         width: 300px;
     }
+
+    .button:hover {
+        background-image: linear-gradient(to top, hsl(241, 81%, 54%),hsl(252, 100%, 67%));
+        cursor: pointer;
+    }
+
 }
 

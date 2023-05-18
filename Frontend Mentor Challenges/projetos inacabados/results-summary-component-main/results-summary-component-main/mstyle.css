@@ -86,10 +86,6 @@ main {
     margin: 20px;
 }
 
-.white > i {
-    display: inline;
-    margin: 1px;
-}
 
 .box1 {
     display: flex;
@@ -107,6 +103,7 @@ main {
 .box1 > b {
     color:hsl(0, 100%, 67%);
 } 
+
 
 .box1 > p {
     color:hsl(241, 37%, 65%);
@@ -198,4 +195,11 @@ main {
     width: 330px;
     border-radius: 25px;
     margin: 10px;
+}
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 15
 }
