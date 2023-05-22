@@ -16,7 +16,7 @@ body {
     display: block;
     margin: auto;
     width: 375px;
-    height: 700px;
+    height: 780px;
     background-color: hsl(244, 38%, 16%);
     color: hsl(0, 0%, 100%);
     text-align: center;
@@ -40,8 +40,9 @@ body {
 
 .top > h1 {
     font-family:'Inter', sans-serif;
-    font-weight: 700;
-    margin: 30px 50px;
+    font-weight: 515;
+    margin: 30px 30px 20px 30px;
+    line-height: 35px;
 }
 
 .top > h1 > b {
@@ -49,24 +50,29 @@ body {
 }
 
 .top > p {
-    font-family: 'Lexend Deca', sans-serif;
-    font-weight: 400;
-    margin: 0px 50px 0px 50px;
-}
-
-.bottom {
-    text-align: center;
-    margin: 30px;
-}
-
-.bottom > h2 {
     font-family: 'Inter', sans-serif;
-    font-weight: 700;
+    margin: 0px 50px 40px 50px;
+    color: hsla(0, 0%, 100%, 0.75);
+    line-height: 25px;
 }
 
-.bottom > p {
-    font-family:'Lexend Deca', sans-serif;
-    font-size: 13px;
-    font-weight: 400;
+.section {
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+    line-height: 15px;
+    margin: 18px;
+}
+
+span {
     text-transform: uppercase;
+}
+
+.section > p {
+    font-family: 'Lexend Deca', sans-serif;
+    color: hsla(0, 0%, 100%, 0.6);
+    padding-bottom: 11px;
+    font-size: 12px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    line-height: 28px;
 }
