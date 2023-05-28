@@ -1,0 +1,62 @@
+@charset "UTF-8";
+
+@media screen and (min-width:768px) {
+    * {
+        margin: 0px;
+        padding: 0px;
+    }
+
+    body {
+        background: url(../images/pattern-background-desktop.svg);
+        background-size: cover;
+        background-position: left top;
+        background-repeat: no-repeat;
+        background-color: hsl(225, 100%, 94%);
+    }
+
+    .one {
+        display: block;
+        margin: auto;
+        background-color: white;
+        width: 450px;
+        height: 620px;
+        font-family: 'Red Hat Display', sans-serif;
+        font-size: 16px;
+
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+
+    .one > img {
+            width: 450px;
+            height: 220px;
+            border-radius: 15px 15px 0px 0px;
+        }
+
+    h1 {
+        margin: 30px 20px 20px 20px;
+        font-weight: 900;
+        font-size: 24px;
+
+    }
+
+    p {
+        margin: 0px 42px 0px 42px;
+
+    }
+
+    .box {
+        width: 390px;
+        height: 90px;
+        margin: 10px 20px 10px 28px;
+
+    }
+
+    button {
+        width: 400px;
+        height: 45px;
+        margin: 20px;
+    }
+}

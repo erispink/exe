@@ -8,6 +8,10 @@
 }
 
 body {
+    background: url(../images/pattern-background-mobile.svg);
+    background-size: cover;
+    background-position: left top;
+    background-repeat: no-repeat;
     background-color: hsl(225, 100%, 94%);
    }
 
@@ -21,7 +25,6 @@ body {
     font-size: 16px;
     text-align: center;
     border-radius: 15px;
-    /*box-shadow: -13px 35px 63px -21px rgba(120,120,120,1);*/
 
     box-shadow: -1px 37px 58px -11px rgba(150,150,150,0.55);
              
@@ -41,7 +44,7 @@ body {
 h1 {
     color: hsl(223, 47%, 23%);
     margin: 20px;
-    font-weight: 900;
+    font-weight: 800;
     font-size: 24px;
 }
 
@@ -60,10 +63,11 @@ p {
     margin: 15px;
     border-radius: 10px;
 
-    flex-direction: row;    
+    flex-direction: row;
+    align-items: center;
     justify-content: space-around;
-}
 
+}
 
 .box > p {
     color: hsl(224, 23%, 55%);
@@ -74,17 +78,31 @@ p {
     text-decoration: underline;
 }
 
+.music {
+    display: flex;
+    flex-direction: row;
+}
+
+.three {
+    display: flex;
+    flex-direction: column;
+}
+
 button {
     background-color: hsl(245, 75%, 52%);
     color: white;
     font-weight: 700;
     width: 300px;
-    height: 50px;
+    height: 40px;
     margin: 10px;
     border-radius: 10px;
+    box-shadow: 0px 16px 22px -5px rgba(0, 0, 0, 0.267);
+    
+}
 
-    box-shadow:  29px 29px 42px #c7c7c7,
-    -29px -29px 42px #f9f9f9;
+.button:hover {
+    background-color:hsl(252, 100%, 67%);
+    cursor: pointer;
 }
 
 a {
