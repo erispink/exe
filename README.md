@@ -1,2 +1,1 @@
-# exe
- exercícios de vídeoaulas no youtube
+Exercícios e vídeo aulas do youtube, frontend challenges, etc...
