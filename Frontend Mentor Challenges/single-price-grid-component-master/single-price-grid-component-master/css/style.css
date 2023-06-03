@@ -1,0 +1,84 @@
+@charset "UTF-8";
+
+@media screen and (min-width: 780px) {
+ 
+    * {
+        margin: 0px;
+        padding: 0px;
+    }
+    
+    body {
+        background-color: hsl(204, 43%, 93%);;
+    }
+    
+    .box {
+        background-color: white;
+        width: 830px;
+        height: 568px;
+        border-radius: 10px;
+        box-shadow: 0px 10px 23px 4px rgba(0,0,0,0.1);
+    
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50% -50%);
+    }
+    
+    .one > h3 {
+        font-size: 25px;
+        margin: 50px 0px 30px 40px;
+    }
+    
+    .one > p {
+        margin: 0px 20px 35px 40px;
+        word-spacing: .6px;
+    }
+    
+    .green {
+        margin: 10px 0px 15px 40px;
+    }
+    
+    .ciano {
+        display: flex;
+        flex-direction: row;
+        align-items: flex-end;
+    }
+    
+    .two {
+        width: 425px;
+        height: 280px;
+        border-radius: 0px 0px 0px 10px;
+    }
+    
+    .two > h3 {
+        margin: 20px 20px 20px 60px; 
+    }
+    
+    .two > p {
+        margin: 20px 20px 20px 60px;
+    }
+    
+    .value {
+        margin: 10px 0px 10px 60px;
+    }
+    
+    button {
+        width: 310px;
+        height: 50px;
+        margin: 15px 0px 30px 60px;
+    }
+    
+    .three {
+        width: 425px;
+        height: 280px;
+        border-radius: 0px 0px 10px 0px;
+    }
+    
+    .three > h3 {
+        margin: 20px 20px 20px 60px; 
+    }
+    
+    .three > p {
+        margin: 20px 60px;
+    }
+}
