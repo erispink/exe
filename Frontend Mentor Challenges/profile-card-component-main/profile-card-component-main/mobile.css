@@ -1,0 +1,76 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: hsl(185, 75%, 39%);
+    background-image: url(images/bg-pattern-top.svg), url(images/bg-pattern-bottom.svg);
+    background-position: top left, bottom right;
+    background-repeat: no-repeat, no-repeat;
+    color: hsl(229, 23%, 23%);
+    font-family: 'Kumbh Sans', sans-serif;
+    font-size: 18px;
+}
+
+p {
+    color: hsl(227, 10%, 46%);
+    font-size: 15px;
+}
+
+.box {
+    display: block;
+    margin: auto;
+    background-color: hsl(0, 0%, 100%);
+    background-image: url(images/bg-pattern-card.svg);
+    background-position: top center;
+    background-repeat: no-repeat;
+    width: 375px;
+    height: 400px;
+    line-height: 30px;
+    border-radius: 10px;
+}
+
+.img {
+    margin: 10px 140px;
+    border-radius: 50%;
+}
+
+.white {
+    padding-top: 100px;
+    width: 375px;
+    height: 325px;
+}
+
+.white > h2 {
+    margin: 10px 80px;
+}
+
+.white > p {
+    margin-left: 150px;
+}
+
+
+.info {
+    display: flex;
+    flex-direction: row;
+}
+
+.num {
+    display: flex;
+    width: 90px;
+    height: 80px;
+    margin: 0px 35px;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.num > p {
+    letter-spacing: 1px;
+    font-size: 13px;
+}

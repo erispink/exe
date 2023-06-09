@@ -9,16 +9,34 @@
 }
 
 header {
+    display: block;
+    margin: auto;
     background-color: hsl(193, 100%, 96%);
     color: hsl(192, 100%, 9%);
     width: 375px;
     height: 550px;
 }
 
+.tright {
+    background-color: hsl(0, 0%, 100%);
+    color: hsl(192, 100%, 9%);
+    width: 140px;
+    height: 40px;
+}
+
+.tcenter {
+    display: block;
+    margin: auto;
+    width: 280px;
+    height: 50px;
+
+}
+
 main {
     background-color:hsl(193, 100%, 96%);
     width: 375px;
     height: 850px;
+
 }
 
 h2 {
@@ -35,14 +53,7 @@ button {
     background-color: hsl(322, 100%, 66%);
     color: hsl(0, 0%, 100%);
     font-family: 'Poppins', sans-serif;
-}
-
-footer {
-    background-color: hsl(192, 100%, 9%);
-    color: hsl(0, 0%, 100%);
-    font-family: 'Open Sans', sans-serif;
-    width: 375px;
-    height: 500px;
+    border-radius: 30px;
 }
 
 .one {
@@ -67,8 +78,20 @@ footer {
 }
 
 .flying {
+    display: block;
+    margin: auto;
     background-color: hsl(0, 0%, 100%);
     width: 275px;
     height: 175px;
     box-shadow: 5px;
+}
+
+footer {
+    display: block;
+    margin: auto;
+    background-color: hsl(192, 100%, 9%);
+    color: hsl(0, 0%, 100%);
+    font-family: 'Open Sans', sans-serif;
+    width: 375px;
+    height: 500px;
 }
