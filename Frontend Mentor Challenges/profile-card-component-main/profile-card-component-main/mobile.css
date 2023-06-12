@@ -10,7 +10,7 @@
 body {
     background-color: hsl(185, 75%, 39%);
     background-image: url(images/bg-pattern-top.svg), url(images/bg-pattern-bottom.svg);
-    background-position: top left, bottom right;
+    background-position: top right, bottom left;
     background-repeat: no-repeat, no-repeat;
     color: hsl(229, 23%, 23%);
     font-family: 'Kumbh Sans', sans-serif;
@@ -29,29 +29,50 @@ p {
     background-image: url(images/bg-pattern-card.svg);
     background-position: top center;
     background-repeat: no-repeat;
-    width: 375px;
-    height: 400px;
+    width: 350px;
+    height: 390px;
     line-height: 30px;
+    margin-top: 10px;
     border-radius: 10px;
 }
 
+.pic {
+    display: flex;
+    justify-content: center;
+    align-items: center;   
+}
+
+.board {
+    margin-top: 90px;
+    margin-left: 10px;
+    width: 100px;
+    height: 100px; 
+    border-radius: 50%; 
+    background-color: hsl(0, 0%, 100%);
+  }
+
 .img {
-    margin: 10px 140px;
+    margin-top: 90px;
     border-radius: 50%;
+    width: 90px;
+    height: 90px;
+    margin-left: -95px;
 }
 
 .white {
-    padding-top: 100px;
     width: 375px;
     height: 325px;
 }
 
 .white > h2 {
-    margin: 10px 80px;
+    margin-top: 18px;
+    margin-left: 115px;
+    font-size: 19px;
 }
 
 .white > p {
     margin-left: 150px;
+    margin-bottom: 30px;
 }
 
 
@@ -69,6 +90,9 @@ p {
     align-items: center;
 }
 
+.num > h3 {
+    font-size: 20px;
+}
 
 .num > p {
     letter-spacing: 1px;
