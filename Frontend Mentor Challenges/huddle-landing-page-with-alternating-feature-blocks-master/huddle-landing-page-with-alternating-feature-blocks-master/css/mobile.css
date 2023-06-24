@@ -1,0 +1,80 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Poppins:wght@600&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: hsl(0, 0%, 100%);
+    width: 375px;
+    height: 1200px;
+    font-size: 18px;
+    font-family: 'Open Sans', sans-serif;
+    
+}
+
+header {
+    background-image: url(../images/bg-hero-mobile.svg);
+    background-color: hsl(193, 100%, 96%);
+    color: hsl(192, 100%, 9%);
+}
+
+.huddle {
+    width: 135px;
+    height: 25px;
+}
+
+h1 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+}
+
+.topright {
+    background-color: white;
+    color: hsl(192, 100%, 9%);
+    width: 130px;
+    height: 35px;
+    border-radius: 20px;
+}
+
+button {
+    background-color: hsl(322, 100%, 66%);
+    color: hsl(0, 0%, 100%);
+    width: 280px;
+    height: 45px;
+    border-radius: 30px;
+}
+
+.himg {
+    width: 350px;
+    height: 300px;
+}
+
+h2 {
+    color: hsl(192, 100%, 9%);
+    font-family: 'Poppins', sans-serif;
+}
+
+main {
+    color: hsl(208, 11%, 55%);
+}
+
+.img {
+    width: 350px;
+    height: 300px;
+}
+
+.centerbox {
+    width: 345px;
+    height: 210px;
+    border-radius: 10px;
+}
+
+footer {
+    background-color: hsl(192, 100%, 9%);
+    color: hsl(0, 0%, 100%);
+    padding-top: 45px;
+}
