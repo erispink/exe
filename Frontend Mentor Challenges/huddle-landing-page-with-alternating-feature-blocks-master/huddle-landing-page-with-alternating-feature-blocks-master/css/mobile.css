@@ -11,7 +11,7 @@ body {
     display: block;
     margin: auto;
     background-color: hsl(0, 0%, 100%);
-    width: 375px;
+    width: 385px;
     height: 2000px;
     font-size: 18px;
     font-family: 'Open Sans', sans-serif;
@@ -22,39 +22,46 @@ header {
     background-image: url(../images/bg-hero-mobile.svg);
     background-color: hsl(193, 100%, 96%);
     color: hsl(192, 100%, 9%);
+    width: 375px;
+    height: 650px;
+}
+
+.line {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    margin: 15px;
 }
 
 .huddle {
-    width: 135px;
-    height: 25px;
+    width: 115px;
+    height: 17px;
+}
+
+.topright {
+    background-color: hsl(0, 0%, 100%);
+    color: hsl(192, 100%, 9%);
+    font-weight: bold;
+    font-size: 13px;
+    width: 110px;
+    height: 30px;
+    border-radius: 20px;
 }
 
 h1 {
     font-family: 'Poppins', sans-serif;
     font-weight: 600;
-}
-
-.topright {
-    background-color: white;
-    color: hsl(192, 100%, 9%);
-    width: 130px;
-    height: 35px;
-    border-radius: 20px;
-}
-
-h1 {
-    margin: 25px 45px;
-}
-
-.himg {
-    width: 320px;
-    height: 250px;
+    font-size: 25px;
+    text-align: center;
+    margin: 55px 35px 15px 25px;
 }
 
 header > p {
-    margin: 40px;
+    font-size: 16px;
+    text-align: center;
+    margin: 20px 30px 30px 30px;
 }
-
 
 button {
     background-color: hsl(322, 100%, 66%);
@@ -62,6 +69,11 @@ button {
     width: 280px;
     height: 45px;
     border-radius: 30px;
+}
+
+.himg {
+    width: 300px;
+    height: 230px;
 }
 
 main {
@@ -90,24 +102,35 @@ main {
 h2 {
     color: hsl(192, 100%, 9%);
     font-family: 'Poppins', sans-serif;
-    font-size: 17px;
+    font-size: 18px;
     margin: 15px 0px;
 }
 
-p {
+.box > p {
     font-size: 15px;
+    text-align: center;
     margin: 0px 45px;
 }
 
 .centerbox {
-    width: 300px;
-    height: 180px;
-    border-radius: 10px;
+    width: 365px;
+    height: 190px;
+    border-radius: 15px;
     box-shadow: 0px 0px 20px -8px rgba(0, 0, 0, 0.329);
+}
+
+.centerbox > h2 {
+    color: hsl(192, 100%, 9%);
+    font-size: 17px;
+    text-align: center;
+}
+
+.centerbox > button {
+    margin: 10px 0px;
 }
 
 footer {
     background-color: hsl(192, 100%, 9%);
     color: hsl(0, 0%, 100%);
-    padding-top: 45px;
+    padding-top: 55px;
 }
