@@ -8,11 +8,14 @@
 }
 
 body {
-    display: block;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
     margin: auto;
     background-color: hsl(0, 0%, 100%);
     width: 385px;
-    height: 2000px;
+    height: 3300px;
     font-size: 18px;
     font-family: 'Open Sans', sans-serif;
     
@@ -154,6 +157,7 @@ main {
     align-items: center;
     flex-direction: column;
 
+    position: relative;
 }
 
 .centerbox {
@@ -161,12 +165,17 @@ main {
     justify-content: center;
     align-items: center;
     flex-direction: column;
-
+    background-color: white;
     width: 365px;
     height: 190px;
     border-radius: 15px;
     box-shadow: 0px 0px 20px -8px rgba(0, 0, 0, 0.329);
 
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin-top: 500px;
 }
 
 .centerbox > h2 {
@@ -183,15 +192,26 @@ main {
 footer {
     background-color: hsl(192, 100%, 9%);
     color: hsl(0, 0%, 100%);
-    line-height: 45px;
+    font-size: 12pt;
+    line-height: 30px;
     padding-top: 55px;
+    margin-top: 200px;
 }
 
 footer > p {
-    margin: 22px;
+    margin: 70px;
 }
 
 a {
     color: hsl(0, 0%, 100%);
     text-decoration: none;
 }
+
+.huddle2 {
+    display: flex;
+    flex-direction: row;
+    filter: brightness(12);
+    width: 155px;
+    height: 25px;
+    margin: 50px 0px 25px 0px;
+  }

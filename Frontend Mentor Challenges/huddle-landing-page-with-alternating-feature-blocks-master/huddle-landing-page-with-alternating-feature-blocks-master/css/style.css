@@ -7,17 +7,14 @@
     }
 
     body {
-        display: block;
-        margin: auto;
-        width: 1250px;
-        height: 200px;
+        width: 1300px;
+        height: 3000px;
     }
 
     header {
         background-image: url(../images/bg-hero-desktop.svg);
-        width: 1200px;
-        height: 650px;
-        
+        width: 1280px;
+        height: 750px;
     }
 
     .line {
@@ -34,6 +31,7 @@
     .col1 {
         display: flex;
         flex-direction: column;
+        margin: 10px;
     }
 
     .col1 > h1 {
@@ -41,19 +39,19 @@
         font-weight: 600;
         font-size: 35px;
         text-align: left;
-        margin: 35px 35px 15px 50px;
+        margin: 10px 70px;
     }
     
     .col1 > p {
         font-size: 17px;
         text-align: left;
-        margin: 20px 30px 30px 50px;
+        margin: 30px 70px;
     }
 
     .himg {
         width: 555px;
         height: 400px;
-        margin-right: 50px;
+        margin-right: 70px;
     }
 
     main {
@@ -66,8 +64,8 @@
     .box1 {
         display: flex;
         flex-direction: row-reverse;
-        width: 1000px;
-        height: 460px;  
+        width: 1090px;
+        height: 510px;  
     }
 
     .txt {
@@ -76,34 +74,35 @@
     }
 
     .txt > h2 {
-        font-size: 22px;
+        font-size: 20pt;
         text-align: left;
-        margin-left: 50px;
+        margin-left: 60px;
     }
 
     .txt > p {
+        font-size: 13pt;
         text-align: left;
-        margin-left: 50px;
+        margin-left: 60px;
         margin-right: 80px;
     }
 
     .img {
         width: 380px;
         height: 320px;
-        margin-right: 50px;
+        margin-right: 60px;
     }
 
     .box2 {
         display: flex;
         flex-direction: row-reverse;
-        width: 1000px;
-        height: 460px;  
+        width: 1090px;
+        height: 510px;  
     }
 
     .box3 {
         display: flex;
         flex-direction: row-reverse;
-        width: 1000px;
-        height: 460px;  
+        width: 1090px;
+        height: 510px;  
     }
 }
