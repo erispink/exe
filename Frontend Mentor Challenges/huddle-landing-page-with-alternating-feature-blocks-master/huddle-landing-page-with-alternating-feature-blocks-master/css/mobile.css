@@ -26,12 +26,20 @@ header {
     background-color: hsl(193, 100%, 96%);
     color: hsl(192, 100%, 9%);
     width: 375px;
-    height: 735px;
+    height: 765px;
 
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
+}
+
+.line {
+    display: flex;
+    flex-direction: row;
+    align-self: flex-start;
+    margin-top: 40px;
+    margin-left: 18px;
 }
 
 .huddle {
@@ -83,6 +91,7 @@ button {
 .himg {
     width: 305px;
     height: 213px;
+    margin-left: 30px;
 }
 
 main {
@@ -189,22 +198,14 @@ main {
     margin: 10px 0px;
 }
 
-footer {
+.footer {
     background-color: hsl(192, 100%, 9%);
     color: hsl(0, 0%, 100%);
+    width: 375px;
+    height: 1200px;
     font-size: 12pt;
-    line-height: 30px;
     padding-top: 55px;
     margin-top: 200px;
-}
-
-footer > p {
-    margin: 70px;
-}
-
-a {
-    color: hsl(0, 0%, 100%);
-    text-decoration: none;
 }
 
 .huddle2 {
@@ -213,5 +214,40 @@ a {
     filter: brightness(12);
     width: 155px;
     height: 25px;
-    margin: 50px 0px 25px 0px;
+    margin: 50px 0px 20px 0px;
   }
+
+.f1 {
+    margin-left: 35px;
+    margin-top: 120px;
+    line-height: 30px;
+}
+
+.f1 > p {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.f2 {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    margin-left: 35px;
+}
+
+
+.f21 > a {
+    color: hsl(0, 0%, 100%);
+    text-decoration: none;
+    line-height: 30px;
+}
+
+.f22 > a {
+    color: hsl(0, 0%, 100%);
+    text-decoration: none;
+    line-height: 30px;
+}
+
+.cred {
+    margin: 30px;
+}
