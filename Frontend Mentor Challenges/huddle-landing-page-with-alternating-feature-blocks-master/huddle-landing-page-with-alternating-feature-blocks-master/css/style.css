@@ -22,6 +22,18 @@
         flex-direction: row;
         align-self: flex-start;
         margin-left: 50px;
+        margin-bottom: 50px;
+    }
+
+    .huddle {
+        width: 125px;
+        height: 25px;
+    }
+
+    .topright {
+        width: 162px;
+        height: 35px;
+        margin-left: 945px;
     }
 
     .box {
